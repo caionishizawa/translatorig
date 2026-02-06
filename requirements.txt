@@ -1,0 +1,55 @@
+# Video Translator - Dependencies
+# Python 3.10+ required
+
+# Core
+torch>=2.0.0
+torchaudio>=2.0.0
+torchvision>=0.15.0
+
+# Video Extraction
+yt-dlp>=2024.1.0
+instaloader>=4.10
+
+# Transcription
+openai-whisper>=20231117
+faster-whisper>=0.10.0
+
+# Translation
+transformers>=4.36.0
+sentencepiece>=0.1.99
+# seamless_communication - install from GitHub:
+# pip install git+https://github.com/facebookresearch/seamless_communication.git
+
+# Voice Synthesis (Coqui TTS with XTTS)
+TTS>=0.22.0
+
+# Video/Audio Processing
+ffmpeg-python>=0.2.0
+moviepy>=1.0.3
+pydub>=0.25.1
+librosa>=0.10.1
+soundfile>=0.12.1
+numpy>=1.24.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# API/Web
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+aiofiles>=23.2.1
+httpx>=0.26.0
+
+# Utils
+tqdm>=4.66.0
+rich>=13.7.0
+python-dotenv>=1.0.0
+click>=8.1.0
+
+# Development
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
+black>=23.12.0
+ruff>=0.1.0
